@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            position: relative;
+        }
+
+        /* बैकग्राउंड तस्वीर के लिए */
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('YOUR_IMAGE_LINK_HERE.jpg'); /* यहाँ अपनी तस्वीर का सीधा लिंक या नाम डालें */
+            background-size: cover;
+            background-position: center;
+            opacity: 0.7;
+            z-index: 1;
+        }
+
+        /* टेक्स्ट बॉक्स के लिए */
+        .content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 25px 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.2rem;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background-image"></div>
+    
+    <div class="content">
+        <h1>Welcome to Suraj Website</h1>
+    </div>
+
+</body>
+</html>
